@@ -5,7 +5,7 @@ const NewsLetter = () => {
         <section className="container-r gradient-container">
             <div className="wraper bg-white rounded-lg lg:flex-row p-4">
                 <div className="lg:w-[22.8rem] lg:h-[22.8rem]">
-                    <img src="newsletter.png" alt="" />
+                    <img src="./newsletter.png" alt="" />
                 </div>
 
                 <div className="ml-4 flex-col flex-1 flex justify-center">

@@ -33,7 +33,7 @@ const Footer = () => {
                 <div className="col-1 flex flex-col gap-[0.81rem]">
                     <div className="logo">
                         <img
-                            src="/logo.png"
+                            src="./logo.png"
                             alt="Logo"
                             className="invert grayscale"
                         />
@@ -47,12 +47,12 @@ const Footer = () => {
                     <div className="buttons flex justify-center lg:flex-col flex-row gap-4 mt-5">
                         <DownloadButton
                             title="app store"
-                            logo={"/applestore.png"}
+                            logo={"./applestore.png"}
                         ></DownloadButton>
 
                         <DownloadButton
                             title="play store"
-                            logo={"/playstore.png"}
+                            logo={"./playstore.png"}
                         ></DownloadButton>
                     </div>
                 </div>

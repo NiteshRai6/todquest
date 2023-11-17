@@ -6,7 +6,7 @@ const TopHeader = () => {
         <div className="flex flex-col lg:flex-row justify-center items-center py-2 lg:py-4 gap-2 lg:gap-12">
             <div className="logo">
                 <img
-                    src="./toduest/logo.png"
+                    src="./logo.png"
                     alt="Logo"
                 />
             </div>

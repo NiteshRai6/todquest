@@ -5,7 +5,7 @@ const CategoriesTable = () => {
         <section className="container-r">
             <div className="wraper bg-white lg:flex-row lg:pr-4 gap-5 rounded-xl px-2">
                 <div className="lg:w-[22.9375rem] lg:h-[32.5rem] rounded-tl-xl rounded-bl-xl overflow-hidden">
-                    <img src="/image 65.png" alt="" className="w-full" />
+                    <img src="./image 65.png" alt="" className="w-full" />
                 </div>
 
                 <div className="flex-col flex-1 flex justify-center">
