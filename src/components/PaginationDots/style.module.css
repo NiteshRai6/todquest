@@ -1,0 +1,15 @@
+.carousel-dot {
+    width: 1.25rem;
+    height: 0.5rem;
+    border-radius: 0.25rem;
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    -ms-border-radius: 0.25rem;
+    -o-border-radius: 0.25rem;
+    @apply bg-lightGrey;
+}
+
+.carousel-dot.active {
+    width: 3rem;
+    @apply bg-dark;
+}
