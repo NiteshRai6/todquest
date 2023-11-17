@@ -20,14 +20,14 @@ const HomePage = () => {
             </header>
 
             <main>
-                <Banner image="/banner-image.png" blurClass={"blur-banner"} />
+                <Banner image="./banner-image.png" />
                 <CouponLists />
 
                 <DealsOfDay></DealsOfDay>
 
                 <CouponCategories></CouponCategories>
 
-                <Banner noPagination={true} image="/image 10.png"></Banner>
+                <Banner noPagination={true} image="./image 10.png"></Banner>
 
                 <PopularMembership></PopularMembership>
 

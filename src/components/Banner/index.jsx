@@ -10,7 +10,7 @@ const Banner = ({ image, noPagination, blurClass }) => {
         <section className="lg:pt-10 py-4 center px-2">
             <div className="flex flex-col gap-5">
                 {/* banner image */}
-                <div className={`${styles["image-container"]} ${blurClass ? blurClass : ""}`}>
+                <div className={` ${styles["image-container"]} `}>
                     <img
                         src={image}
                         style={{ opacity: isLoaded }}
